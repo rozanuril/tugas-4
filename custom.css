@@ -1,0 +1,72 @@
+/* navbar*/
+.navbar-brand{
+    font-family: Viga;
+    font-size: 32px;
+    }
+
+  
+/*jumbotron*/
+.jumbotron {
+    background-image: url(image/bgr.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: 20px;
+    border-radius: 35px;
+}
+
+
+
+/*slider*/
+.carousel-item{
+    height: 400px;
+}
+
+
+
+/* tombol*/
+.tombol{
+    text-transform: uppercase;
+    border-radius: 35px;
+}
+
+
+/* dekstop*/
+@media (min-width: 1200px) { 
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+    .carousel-item{
+        height: 400px;
+    }
+    
+}    
+
+/*text about*/
+.card-title{
+    font-family: Viga;
+    font-size: 32px;
+}
+
+.card-footer{
+    color: blue;
+}
+
+.c-fitem__title{
+    position: relative;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: normal;
+}
+
+#about ul{
+    list-style: none;
+}
+#about ul li{
+    list-style: none;
+}
+
+.c-fitem__list{
+list-style: none;   
+}
